@@ -1,3 +1,13 @@
 nodes.pp
 modules/*
 .vagrant
+provision/modules/stdlib
+provision/modules/apache
+provision/modules/firewall
+provision/modules/inifile
+provision/modules/puppetdb
+provision/modules/concat
+provision/modules/postgresql
+provision/modules/apt
+provision/modules/puppet
+provision/modules/puppet_agent

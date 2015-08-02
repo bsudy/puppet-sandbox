@@ -16,6 +16,7 @@
 class helloworld {
 
   file { '/tmp/hello':
+    ensure  => 'present',
     owner   => 'root',
     group   => 'root',
     mode    => '0666',
